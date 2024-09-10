@@ -1,0 +1,97 @@
+.hacerlo_grande {
+  min-height: calc(100vh - 326px);
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 888px;
+}
+
+.u-section-1 .u-layout-wrap-1 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  width: 100%;
+}
+
+.u-section-1 .u-layout-cell-1 {
+  min-height: 782px;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 30px;
+}
+
+.u-section-1 .u-text-1 {
+  margin: 0;
+}
+
+.u-section-1 .u-image-1 {
+  min-height: 782px;
+  background-image: url("/static/images/buho.jpg");
+  --radius: 25px;
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding: 30px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 751px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    width: auto;
+  }
+
+  .u-section-1 .u-layout-cell-1 {
+    min-height: 645px;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 645px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 600px;
+  }
+
+  .u-section-1 .u-layout-cell-1 {
+    min-height: 100px;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 494px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1588px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 741px;
+  }
+
+  .u-section-1 .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1040px;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 467px;
+  }
+}
