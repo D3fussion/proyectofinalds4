@@ -67,6 +67,3 @@ def revista():
 
     return render_template('Revista.html', nombre=nombre, datos=diccionario[nombre])
 
-
-if __name__ == '__main__':
-    app.run(Debug=True)
